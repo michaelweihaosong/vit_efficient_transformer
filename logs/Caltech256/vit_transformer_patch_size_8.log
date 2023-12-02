@@ -1,3 +1,4 @@
+Logging tensorboard to ./runs/Caltech256/vit_transformer_patch_size_8
 Files already downloaded and verified
 Total number of parameters in the model: 13369985
 Train Epoch: 1 [0/24148 (0%)]	Loss: 5.744699
@@ -790,5 +791,5 @@ Train Epoch: 10 [24000/24148 (99%)]	Loss: 1.906626
 
 Test set: Average loss: 4.0836, Accuracy: 1287/6037 (21%)
 
-Average seconds for training 1 epoch: 356.9399978637695
-Average seconds for testing: 31.935424494743348
+Average seconds for training 1 epoch: 351.8222902774811
+Average seconds for testing: 31.134604024887086

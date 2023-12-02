@@ -241,5 +241,5 @@ Train Epoch: 10 [6400/6636 (96%)]	Loss: 2.491537
 
 Test set: Average loss: 2.6670, Accuracy: 594/1660 (36%)
 
-Average seconds for training 1 epoch: 50.1219756603241
-Average seconds for testing: 5.161975169181824
+Average seconds for training 1 epoch: 49.72853865623474
+Average seconds for testing: 5.076859545707703
