@@ -19,6 +19,7 @@ from models.reformer import ViT_for_reformer
 
 from torch import Tensor
 import time
+import os
 from torch.utils.tensorboard import SummaryWriter
 from torch.utils.data import Subset
 
@@ -436,7 +437,9 @@ def main():
     print(f"Average seconds for testing: {test_time/epoch}")
 
     if args.save_model:
-        torch.save(model.state_dict(), "./models/vit_performer.pt")
+        save_path = f"./checkpts/{tb_log_dir.replace('./runs/', '')}"
+        os.makedirs(save_path, exist_ok=True)
+        torch.save(model.state_dict(), f"{save_path}/model.pt")
 
 
 if __name__ == '__main__':
